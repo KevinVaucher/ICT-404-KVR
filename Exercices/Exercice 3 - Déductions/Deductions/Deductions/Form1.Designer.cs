@@ -85,7 +85,7 @@
             // 
             this.deductionjeune.AutoSize = true;
             this.deductionjeune.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deductionjeune.Location = new System.Drawing.Point(104, 207);
+            this.deductionjeune.Location = new System.Drawing.Point(103, 207);
             this.deductionjeune.Name = "deductionjeune";
             this.deductionjeune.Size = new System.Drawing.Size(124, 20);
             this.deductionjeune.TabIndex = 4;
