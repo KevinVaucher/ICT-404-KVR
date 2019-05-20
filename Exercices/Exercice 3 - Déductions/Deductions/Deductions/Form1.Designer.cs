@@ -59,6 +59,7 @@
             this.textboxannuelbrut.Name = "textboxannuelbrut";
             this.textboxannuelbrut.Size = new System.Drawing.Size(116, 20);
             this.textboxannuelbrut.TabIndex = 1;
+            this.textboxannuelbrut.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textboxannuelbrut.TextChanged += new System.EventHandler(this.textboxannuelbrut_TextChanged);
             // 
             // coefficient
@@ -77,6 +78,8 @@
             this.coefficientfamilial.Name = "coefficientfamilial";
             this.coefficientfamilial.Size = new System.Drawing.Size(46, 20);
             this.coefficientfamilial.TabIndex = 3;
+            this.coefficientfamilial.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.coefficientfamilial.TextChanged += new System.EventHandler(this.coefficientfamilial_TextChanged);
             // 
             // deductionjeune
             // 
