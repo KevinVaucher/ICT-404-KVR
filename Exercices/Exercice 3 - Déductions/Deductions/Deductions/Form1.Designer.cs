@@ -101,6 +101,7 @@
             this.valeurdeducjeune.Size = new System.Drawing.Size(45, 20);
             this.valeurdeducjeune.TabIndex = 5;
             this.valeurdeducjeune.Text = "900";
+            this.valeurdeducjeune.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.valeurdeducjeune.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // deductiontransport
@@ -123,6 +124,7 @@
             this.valeurdeductransport.Size = new System.Drawing.Size(44, 20);
             this.valeurdeductransport.TabIndex = 7;
             this.valeurdeductransport.Text = "650";
+            this.valeurdeductransport.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // rabais
             // 
@@ -144,6 +146,7 @@
             this.valeurrabais.Size = new System.Drawing.Size(44, 20);
             this.valeurrabais.TabIndex = 9;
             this.valeurrabais.Text = "4";
+            this.valeurrabais.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // calcul
             // 
