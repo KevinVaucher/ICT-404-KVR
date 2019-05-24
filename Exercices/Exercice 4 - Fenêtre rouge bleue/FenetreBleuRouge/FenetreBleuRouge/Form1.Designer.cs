@@ -71,6 +71,7 @@
             this.boutonbasdroite.TabIndex = 2;
             this.boutonbasdroite.Text = "Bas/Droite";
             this.boutonbasdroite.UseVisualStyleBackColor = true;
+            this.boutonbasdroite.Click += new System.EventHandler(this.boutonbasdroite_Click);
             // 
             // boutonbasgauche
             // 

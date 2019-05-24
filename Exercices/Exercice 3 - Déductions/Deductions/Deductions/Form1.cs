@@ -52,9 +52,8 @@ namespace Deductions
         private void button1_Click(object sender, EventArgs e)
         {
 
-            float brut;
+            float brut = float.Parse(textboxannuelbrut.Text);
             float rabaiscalcul;
-            brut = float.Parse(textboxannuelbrut.Text);
             float coefficient = float.Parse(coefficientfamilial.Text);
             float valuedeductionjeune = float.Parse(valeurdeducjeune.Text);
             float valuedeductiontransport = float.Parse(valeurdeductransport.Text);
