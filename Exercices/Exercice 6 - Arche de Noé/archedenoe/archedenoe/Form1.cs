@@ -12,7 +12,7 @@ using System.Windows.Forms;
 Auteur : Kevin Vaucher
 Projet : Arche de Noé
 Date : 13.06.2019
-*/ 
+*/
 namespace archedenoe
 {
     public partial class Form1 : Form
@@ -29,7 +29,7 @@ namespace archedenoe
 
         private void listboxTerre_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void lblTerre_Click(object sender, EventArgs e)
@@ -44,7 +44,7 @@ namespace archedenoe
 
         private void listboxBord_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void cmdFlechehaut_Click(object sender, EventArgs e)
@@ -56,6 +56,7 @@ namespace archedenoe
                 cmdFlechehaut.Enabled = false;
             }
             cmdFlechebas.Enabled = true;
+
         }
 
         private void cmdFlechebas_Click(object sender, EventArgs e)
