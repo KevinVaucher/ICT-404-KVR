@@ -66,6 +66,7 @@
             this.listboxTerre.Location = new System.Drawing.Point(39, 64);
             this.listboxTerre.Name = "listboxTerre";
             this.listboxTerre.Size = new System.Drawing.Size(237, 340);
+            this.listboxTerre.Sorted = true;
             this.listboxTerre.TabIndex = 1;
             this.listboxTerre.SelectedIndexChanged += new System.EventHandler(this.listboxTerre_SelectedIndexChanged);
             // 
